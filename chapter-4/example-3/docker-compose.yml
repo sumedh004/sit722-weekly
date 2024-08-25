@@ -18,8 +18,8 @@ services:
      - "4001:80"
     environment:
       - PORT=80
-      - STORAGE_ACCOUNT_NAME=sumedh01
-      - STORAGE_ACCESS_KEY=7I5Izyq5cue+5ZAAYvj/xfXEsIw+OGBNhxEuIl9aOsuRqGiU2H48E8a/CohV1RCSk34rMwLrldgl+AStXwKRfg==
+      - STORAGE_ACCOUNT_NAME=
+      - STORAGE_ACCESS_KEY=
     restart: "no"
 
   video-streaming:
