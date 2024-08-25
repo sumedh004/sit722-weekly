@@ -19,7 +19,7 @@ services:
     environment:
       - PORT=80
       - STORAGE_ACCOUNT_NAME=
-      - STORAGE_ACCESS_KEY=
+      //- STORAGE_ACCESS_KEY=
     restart: "no"
 
   video-streaming:
